@@ -1,0 +1,47 @@
+body {
+    background-image: url('https://media1.tenor.com/m/3w9siqbo6XQAAAAC/pokemon.gif');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+h1 {
+    background: linear-gradient(90deg, blue, orange);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: transform 0.9s ease-in-out, background 0.9s ease-in-out; 
+}
+
+h1:hover {
+    transform: scale(1.1) rotate(5deg);
+    background: linear-gradient(90deg, orange, blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: darkgray;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out, border-color 0.5s ease-in-out;
+    margin-top: 20px;
+}
+
+.button:hover {
+    background-color: gray;
+    color: white;
+    border-color: white;
+}
+
+.fly-up {
+    transform: translateY(-100px);
+    transition: transform 0.5s ease-in-out;
+}

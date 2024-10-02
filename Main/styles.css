@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('https://wallpaperaccess.com/full/2095868.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+button {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(166, 177, 186);
+    box-shadow: 20px;
+    border: 1px, solid, #ccc, !important;
+    border-style: double;
+    border-radius: 5px;
+
+    width: auto;
+    height: 50px;
+}
+
+B {
+    margin-top: 230px;
+}
