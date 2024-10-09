@@ -1,18 +1,41 @@
 body {
-    background-image: url('https://media1.tenor.com/m/3w9siqbo6XQAAAAC/pokemon.gif');
+    background-image: url('https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExOXQ4eW93YjR1ejdnem9sOWZ5a2ZzM2syNGNzcXF3YnN1dWtuZG5weiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/XRvqZ66pUclQHcb58O/giphy.gif');
     background-size: cover;
-    background-position: center;
     margin: 0;
     height: 100vh;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
     color: white;
+    align-self: center;
+    justify-content: center;
+}
+
+img{
+    max-width: 300px;
+    height: auto;
+    align-self: center;
+    justify-content: center;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: orange;
+}
+
+div{
+    background-color: rgba(0, 0, 0, 0.49);
+    background-size: auto;
+    border: 2px solid rgba(0, 110, 255, 0.49);
+    border-radius: 5px;
+    size: 30%;
+    width: 30%;
+    align-self: center;
+    justify-content: center;
 }
 
 h1 {
     background: linear-gradient(90deg, blue, orange);
-    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     transition: transform 0.9s ease-in-out, background 0.9s ease-in-out; 
 }
@@ -20,25 +43,26 @@ h1 {
 h1:hover {
     transform: scale(1.1) rotate(5deg);
     background: linear-gradient(90deg, orange, blue);
-    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .button {
     padding: 10px 20px;
-    background-color: darkgray;
-    color: black;
-    border: 2px solid black;
+    background-color: rgba(0, 110, 255, 0.49);
+    color: rgb(255, 140, 0);
+    border: 2px solid orange;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out, border-color 0.5s ease-in-out;
     margin-top: 20px;
+    display: block;
+    margin: 10px auto;
 }
 
 .button:hover {
-    background-color: gray;
-    color: white;
-    border-color: white;
+    background-color: rgba(255, 166, 0, 0.611);
+    color: rgba(0, 110, 255, 0.49);
+    border-color: rgba(0, 110, 255, 0.49);
 }
 
 .fly-up {
