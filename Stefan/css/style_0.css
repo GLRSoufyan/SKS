@@ -1,0 +1,23 @@
+body{
+    background-image: url("../assets/images/BG_0.png");
+    background-color: rgba(0,0,0,0.4);
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: 0px -150px;
+}
+
+.TopBorder{
+    width: device-width;
+    height: 150px;
+    background-color: #0000FF;
+}
+
+#Title{
+    padding: 50px;
+}
+
+.Crklbutton{
+    margin-top: 120px;
+    width: 200px;
+    height: 200px;
+}
