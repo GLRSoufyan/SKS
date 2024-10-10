@@ -1,4 +1,11 @@
+
+@font-face {
+    font-family: bkfont;
+    src: url("../assets/fonts/bkfont0.otf");
+}
+
 body{
+    font-family: 'bkfont', sans-serif;
     background-image: url("../assets/images/BG_0.png");
     background-color: rgba(82, 82, 82, 0.4);
     background-blend-mode: overlay;
@@ -18,7 +25,9 @@ body{
 }
 
 #Title{
-    padding: 50px;
+    padding: 10px;
+    color: #BB0000;
+    font-size: 50px;
 }
 
 .Crklbutton{
@@ -33,11 +42,12 @@ body{
 }
 
 #textbox{
-    width: 850px;
-    height: 820px;
+    width:850px;
+    height: 720px;
     background-color: #cbcbcb6b;
     position: absolute;
-    margin: 30px 300px;
+    margin: 40px 100px;
+
     border-color: #747474;
     border-radius: 1%;
     border-style: solid;
@@ -45,29 +55,45 @@ body{
 #textboximg{
     width: 500px;
     height: 500px;
-    margin: 40px 270px;
+    margin: 40px 400px;
     border-color: #747474;
-    border-radius: 50%;
+    border-radius: 1%;
     border-style: solid;
 }
 
-#charimg{
+#overtxt{
+    color: #ededed;
+    margin-left: 5px;
+    font-size: 23px;
+}
+
+.charimg{
     width: 850px;
     height: 820px;
-    margin: 40px 370px;
+    object-fit: cover;
+    padding: 0px;
+    margin: 40px -200px;
+
     border-color: #747474;
     border-radius: 1%;
     border-style: solid;
 }
-#chartext{
+.chartext{
     width: 400px;
-    height: 820px;
+    height: 720px;
     background-color: #cbcbcb6b;
-    position:absolute;
-    margin: 40px 350px;
+    padding: 0px;
+    margin: 40px 280px;
+
     border-color: #747474;
     border-radius: 1%;
     border-style: solid;
+}
+
+.infotxt{
+    color: #ededed;
+    margin-left: 5px;
+    font-size: 23px;
 }
 
 #pijlL{
@@ -80,16 +106,20 @@ body{
     width: 200px;
     height: 200px;
     position: absolute;
-    margin: 350px 1820px;
+    margin: 350px 1690px;
 }
 
 .chpage{
-    width: 100%;
+    min-width: 100%;
     display: flex;
-    align-items: center;
+    box-sizing: border-box;
 }
 .pages{
     display: flex;
-    width: 400%;
-    box-sizing: border-box;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+}
+
+#video1{
+    margin: 30px 200px;
 }

@@ -17,6 +17,14 @@ function GotoLink(link){
 
 function Moveslide(dir){
     console.log(dir);
-
-    
+    const container = document.getElementById("scroll-container");
+    const scrollamount = 1880;
+    switch(dir){
+        case "L":
+            container.scrollLeft -= 1900;
+            break;
+        case "R":
+            container.scrollLeft += 1900;
+            break;
+    }
 }
