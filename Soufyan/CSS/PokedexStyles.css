@@ -1,6 +1,6 @@
 body {
     background-image: url('/Soufyan/Images/pokedex.png');
-    background-size: cover;
+    background-size: auto;
     margin: 0;
     height: 100vh;
     color: rgb(0, 0, 0);
