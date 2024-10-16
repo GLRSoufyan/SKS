@@ -34,6 +34,6 @@ function Moveslide(dir){
         }
     }
     else{
-        setTimeout(function(){hasclicked = false;}, 100);
+        setTimeout(function(){hasclicked = false;}, 40);
     }
 }
