@@ -1,0 +1,41 @@
+body {
+    background-image: url('/Soufyan/Images/pokedex.png');
+    background-size: auto;
+    margin: 0;
+    height: 100vh;
+    color: rgb(0, 0, 0);
+}
+
+img{
+    max-width: 300px;
+    height: auto;
+    align-self: center;
+    justify-content: center;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: orange;
+}
+
+button {
+    background-color: rgba(0, 110, 255, 0);
+    color: rgba(255, 140, 0, 0);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#home {
+    position: fixed;
+    width: 14%;
+    height: 22%;
+    top: 60%;
+    left: 85%;
+}
+
+#pikachu {
+}
+
+#sobble {
+}

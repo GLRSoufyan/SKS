@@ -67,7 +67,8 @@ body{
 }
 
 .backhome{
-    width: 100px;
+    margin-top: 20px;
+    width: 200px;
     height: 120px;
 }
 
@@ -137,7 +138,7 @@ body{
     width: 200px;
     height: 200px;
     position: absolute;
-    margin: 350px 1690px;
+    margin: 350px 1830px;
 }
 
 .chpage{
@@ -149,14 +150,15 @@ body{
     display: flex;
     overflow-x: scroll;
     scroll-behavior: smooth;
+    overflow: hidden;
 }
 
 #video1{
-    margin: 30px 200px;
+    margin: 50px 270px;
 }
 
 #knop3{
-    margin: 300px 800px;
+    margin: 500px 870px;
 }
 #knop2{
     margin: -530px 0px;
