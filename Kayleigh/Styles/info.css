@@ -1,0 +1,20 @@
+body {
+    background-image: url(https://wallpapers-clan.com/wp-content/uploads/2024/03/starfall-night-sky-mountains-aesthetic-gif-cover-desktop-wallpaper.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    color: whitesmoke;
+}
+p {
+    color: whitesmoke;
+    font-size: 20px;
+}
+a{
+    border: 20px rgb(0, 0, 0);
+    color: whitesmoke;
+}
+#aliens{
+    float: right;
+    text-align: left;
+}
