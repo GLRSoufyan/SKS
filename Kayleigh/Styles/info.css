@@ -4,15 +4,16 @@ body {
     background-size: cover;
 }
 h1{
-    color: rgb(0, 0, 0);
+    color: whitesmoke;
+    
 }
 p {
-    color: black;
+    color: whitesmoke;
     font-size: 20px;
 }
 a{
     font-size: 20px;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 #aliens{
     float: right;

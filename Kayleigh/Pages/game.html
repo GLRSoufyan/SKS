@@ -4,10 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../Styles/game.css">
+    <script type="text/javascrip" src="../Java.js"></script>
 </head>
 <body>
     <a href="info.html">Informatie</a>
     <a href="Leaderboard.html">Leaderboard</a>
     <a href="../Page.html">home Page</a>
+    <img class="ground" src="https://media.istockphoto.com/id/516392152/photo/goal-post.jpg?s=612x612&w=0&k=20&c=vSeZ-lGDT0OI8RMJ8bD-VzkcNJSjuP2dXR_dzTCFuEI=">
+    <img src="https://png.pngtree.com/element_pic/17/07/18/0f05aa6517e9acc80aefcfa701845fc5.png" class="i2" id="b2">
+    <button id="b1" class="ball" onclick="goal()"><img class="i1" src="https://png.pngtree.com/png-vector/20240315/ourmid/pngtree-soccer-ball-on-white-over-grey-background-football-oldstyle-png-image_11941305.png"></button>
+    <div class="controlball">
+   <button class="control" onclick="LeftTop()">left top</button>
+   <button class="control" onclick="CenterTop()">center top</button>
+   <button class="control" onclick="RightTop()">right top</button><br/>
+   <button class="control" onclick="LeftMiddle()">left middle</button>
+   <button class="control" onclick="CenterMiddle()">center middle</button>
+   <button class="control" onclick="RightMiddle()">right middle</button><br/>
+   <button class="control" onclick="LeftBottem()">left bottem</button>
+   <button class="control" onclick="CenterBottem()">center bottem</button>
+   <button class="control" onclick="RightBottem()">right bottem</button><br/>
+   <h1>Score Board: <span id="Score">0</span></h1>
+    </div>
+    <div class="right">
+        <h1 id="GoalDone1"></h1>
+    </div>
+    <div class="left">
+        <h1 id="GoalDone2"></h1>
+    </div>
 </body>
 </html>
