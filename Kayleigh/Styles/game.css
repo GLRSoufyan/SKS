@@ -3,6 +3,11 @@
     margin: 0;
     box-sizing: border-box;
 }
+h1{
+    text-shadow: 2px 2px black;
+    text-align: center;
+    color: whitesmoke;
+}
 .controlgoal{
     background-color: transparent;
     position: absolute;
@@ -31,16 +36,13 @@
     font-size: 25px;
     z-index: 2;
 }
-.ground{
-    width: 100vw;
-    height: 99vw;
-    z-index: 1;
+body{
+    background-image: url(https://as2.ftcdn.net/v2/jpg/03/95/52/99/1000_F_395529914_AYMNgesus7D5C9jxPXybzSvGglgXKRIK.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .ball{
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    background-color: white;
+    border-radius: 100%;
     border: none;
     position: absolute;
     bottom: 2em;
@@ -67,10 +69,11 @@
     width: 260px;
     height: 260px;
     position: absolute;
-    left: 40em;
-    top: 16em;
+    left: 875px;
+    top: 620px;
 }
 .control{
+    
     height: 40px;
     width: 100px;
     margin: 5px;
@@ -117,7 +120,7 @@
         left: 54em;
     }
     100%{
-        top: 19em;
+        top: 50em;
         left: 75em;
     }
 }
