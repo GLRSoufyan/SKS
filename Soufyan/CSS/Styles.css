@@ -1,7 +1,7 @@
 body {
     background-image: url('https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExOXQ4eW93YjR1ejdnem9sOWZ5a2ZzM2syNGNzcXF3YnN1dWtuZG5weiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/XRvqZ66pUclQHcb58O/giphy.gif');
+    background-repeat: no-repeat;
     background-size: cover;
-    margin: 0;
     height: 100vh;
     display: flex;
     flex-direction: column;

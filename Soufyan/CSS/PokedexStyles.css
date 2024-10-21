@@ -26,8 +26,8 @@ button {
     cursor: pointer;
 }
 
-#home {
-    position: fixed;
+#homediv {
+    position: relative;
     width: 14%;
     height: 22%;
     top: 60%;
