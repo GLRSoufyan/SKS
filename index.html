@@ -3,22 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <title>Start Pagina</title>
     <!-- link js en css aan de startpagina -->
     <link rel="stylesheet" href="Main/styles.css">
     <script src="Main/scrpts.js"></script>
-    <title>Start Pagina</title>
 </head>
 <body>
     <img id="sticker1" src="Main/images/Sticker1.png" alt="">
-    <B>
-        <img src="Main/images/PKS&MCartridge.png" id="SoufButton" onclick="window.location.href='/Soufyan/page.html'" alt="">
-        <img src="Main/images/PKS&MCartridge.png" id="KayleighButton" onclick="window.location.href='/Kayleigh/Page.html'" alt="">
-        <img src="Main/images/PKS&MCartridge.png" id="StefanButton" onclick="window.location.href='/Stefan/Stefan.html'" alt="">
-        <button class="button" id="SoufButton" onclick="window.location.href='/Soufyan/page.html'">Pokemon Sun & Moon</button>
+    <div id="flexbox_dsmnu">
+        <img src="Main/images/backgrounds/DsScreenBottom.png" alt="" width="530px">
+    </div>
+    <div id="cardsContainer">
+        <img class="GameSelector" src="Main/images/PKS&MCartridge.png" id="SoufButton" onclick="window.location.href='/Soufyan/page.html'" alt="">
+        <img class="GameSelector" src="Main/images/IECartridge.png" id="KayleighButton" onclick="window.location.href='/Kayleigh/Page.html'" alt="">
+        <img class="GameSelector" src="Main/images/BKCardtridge.png" id="StefanButton" onclick="window.location.href='/Stefan/Stefan.html'" alt="">
+        <!--- <button class="button" id="SoufButton" onclick="window.location.href='/Soufyan/page.html'">Pokemon Sun & Moon</button>
         <button class="button" id="KayleighButton" onclick="window.location.href='/Kayleigh/Page.html'">Inazuma Eleven</button>
-        <button class="button" id="StefanButton" onclick="window.location.href='/Stefan/Stefan.html'">Banjo Kazooie</button>
+        <button class="button" id="StefanButton" onclick="window.location.href='/Stefan/Stefan.html'">Banjo Kazooie</button> --->
+    </div>
+    <img id="sticker2" src="Main/images/Sticker2.png" alt="">
 
-    </B>
 </body>
 </html>

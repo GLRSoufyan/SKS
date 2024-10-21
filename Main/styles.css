@@ -1,14 +1,15 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url('https://wallpaperaccess.com/full/2095868.jpg');
+    background-image: url('images/backgrounds/3dsXL.png');
     background-size: cover;
     background-position: center;
     margin: 0;
     height: 100vh;
-    display: flex;
+    /*/display: flex;/*/
     align-items: center;
     justify-content: center;
     color: white;
+    overflow: hidden;
 }
 
 button {
@@ -23,10 +24,26 @@ button {
     height: 50px;
 }
 
-B {
-    margin-top: 230px;
+#cardsContainer {
+    display: flex;
+    margin-top: -215px;
+    margin-left: 831px;
+}
+
+#flexbox_dsmnu{
+    display: flex;
+    margin-top:  155px;
+    margin-left: 761px;
 }
 
 #sticker1{
-    margin: 0px 0px;
+    margin-top: 0px;
+}
+#sticker2{
+    margin-left: 1500px;
+    margin-top: -140px;
+}
+
+.GameSelector{
+    width: 130px;
 }
