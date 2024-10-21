@@ -3,8 +3,8 @@ g1=0;
 function goalkeeper()
 {
     b=document.getElementById('b2')
-    g=Math.floor(Math.random()*7);
-    g1=g;
+    g = Math.floor(Math.random() *7);
+    g1 = g;
     if(g==1)
         b.style.animation="gl0 1s";
     else if (g==2)
@@ -87,7 +87,7 @@ function CenterTop()
         document.getElementById('GoalDone2').innerHTML="Saved!"; 
     }
 }
-function LeftMidle()
+function LeftMiddle()
 {
     document.getElementById('b1').style.animation="left2 1s";
     goalkeeper();
