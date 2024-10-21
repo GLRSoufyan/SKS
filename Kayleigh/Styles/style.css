@@ -7,11 +7,24 @@ body{
     flex-direction: column;
 }
 .button {
-    display: inline-block;
-    font-size: 20px;
-    text-align: center;
-    color: black;
-    padding: 5px;
-    border: 2px solid black;
+    font-size: 25px;
+    display: inline-block; 
+    padding: 10px 20px; 
+    background-color: #5fa0e4; 
+    color: rgb(0, 0, 0); 
+    text-align: center; 
+    text-decoration: none; 
+    border-radius: 7px;
+    transition: background-color 0.3s; 
+    border-style: solid;
+    border-color: black;
 }
 
+.button:hover {
+    background-color: #d4bb3f;
+}
+
+.container{
+    text-align: center;
+    margin-top: 50px;
+}

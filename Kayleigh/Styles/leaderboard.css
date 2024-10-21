@@ -111,12 +111,18 @@ body{
 }
 h1{
   text-align: center;
-  color: whitesmoke;
+  color: rgb(155, 224, 243);
   text-shadow: 2px 2px black;
 }
 .zin{
   font-size: 25px;
   text-align: center;
-  color: whitesmoke;
-  text-shadow: 1px 1px black;
+  color: rgb(155, 224, 243);
+  text-shadow: 2px 1px black;
+}
+.azin{
+  text-align: center;
+}
+.zin:hover {
+  color: #d4bb3f;
 }
