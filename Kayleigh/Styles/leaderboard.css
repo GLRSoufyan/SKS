@@ -105,7 +105,9 @@ img:hover {
   filter: blur(5px);
 }
 body{
-  background-color: rgb(72, 194, 194);
+  background-image: url(https://img.freepik.com/premium-vector/blue-copy-space-digital-background_1191642-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 h1{
   text-align: center;
