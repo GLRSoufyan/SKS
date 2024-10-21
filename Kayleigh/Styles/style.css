@@ -7,10 +7,11 @@ body{
     flex-direction: column;
 }
 .button {
-    float: center;
+    display: inline-block;
+    font-size: 20px;
     text-align: center;
     color: black;
+    padding: 5px;
     border: 2px solid black;
-    padding: 10px;
 }
 
