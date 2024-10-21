@@ -41,9 +41,20 @@ button {
 }
 #sticker2{
     margin-left: 1500px;
-    margin-top: -140px;
+    margin-top: -240px;
 }
 
 .GameSelector{
     width: 130px;
+}
+
+#TopScreen{
+    display: flex;
+    margin-left: 673px;
+    margin-top:  -1100px;
+}
+#iframe{
+    transform: scale(0.37);
+    margin-top: -740px;
+    margin-left: 65px;
 }
