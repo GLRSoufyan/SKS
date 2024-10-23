@@ -8,6 +8,12 @@ h1{
     text-align: center;
     color: whitesmoke;
 }
+.boo{
+    color: whitesmoke;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
 .controlgoal{
     background-color: transparent;
     position: absolute;
@@ -88,7 +94,7 @@ body{
         left: 54em;
     }
     100%{
-        top: 19em;
+        top: 30em;
         left: 32em;
     }
 }
