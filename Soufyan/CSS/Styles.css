@@ -57,6 +57,7 @@ h1:hover {
     margin-top: 20px;
     display: block;
     margin: 10px auto;
+    cursor: pointer;
 }
 
 .button:hover {
