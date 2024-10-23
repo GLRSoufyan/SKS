@@ -22,3 +22,6 @@ a{
     float: right;
     text-align: left;
 }
+a:hover {
+    color: #d4bb3f;
+  }

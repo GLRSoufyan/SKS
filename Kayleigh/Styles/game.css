@@ -64,6 +64,7 @@ body{
     width: 115px;
     height: 60px;
     margin-left: -28px;
+    border-radius: 50%;
 }
 .i2{
     width: 260px;
