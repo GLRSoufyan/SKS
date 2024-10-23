@@ -1,12 +1,12 @@
 body {
-    background-image: url('/Soufyan/Images/pokedex.png');
+    background-image: url('../Images/pokedex.png');
     background-size: auto;
     margin: 0;
     height: 100vh;
     color: rgb(0, 0, 0);
 }
 
-img{
+img {
     max-width: 300px;
     height: auto;
     align-self: center;
@@ -21,21 +21,47 @@ p {
 
 button {
     background-color: rgba(0, 110, 255, 0);
-    color: rgba(255, 140, 0, 0);
-    border-radius: 5px;
+    color: rgba(255, 255, 255, 1);
+    border-color: rgba(0, 110, 255, 0);
     cursor: pointer;
 }
 
 #homediv {
-    position: relative;
-    width: 14%;
-    height: 22%;
-    top: 60%;
-    left: 85%;
+    position: absolute;
+    top: 40rem;
+    left: 80rem;
+}
+
+#pikachudiv {
+    position: absolute;
+    left: 10rem;
+    top: 20.5rem;
 }
 
 #pikachu {
+    width: 21.3rem;
+    height: 6rem;
+}
+
+#sobblediv {
+    position: absolute;
+    left: 10rem;
+    top: 31.8rem;
 }
 
 #sobble {
+    width: 21.3rem;
+    height: 6rem;
+}
+
+#home{
+    width: 19rem;
+    height: 19rem;
+}
+
+#back {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    color: black;
 }
