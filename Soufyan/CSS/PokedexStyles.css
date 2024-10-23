@@ -1,5 +1,6 @@
 body {
     background-image: url('../Images/pokedex.png');
+    background-repeat: no-repeat;
     background-size: auto;
     margin: 0;
     height: 100vh;
