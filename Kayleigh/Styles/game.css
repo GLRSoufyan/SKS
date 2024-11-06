@@ -8,6 +8,16 @@ h1{
     text-align: center;
     color: whitesmoke;
 }
+a{ 
+    text-shadow: 2px 2px 2px black;
+    color: whitesmoke;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.boo{
+    text-align: center;
+}
 .controlgoal{
     background-color: transparent;
     position: absolute;
@@ -42,11 +52,13 @@ body{
     background-repeat: no-repeat;
 }
 .ball{
+    height: 50px;
+    width: 50px;
     border-radius: 100%;
     border: none;
-    position: absolute;
-    bottom: 2em;
-    left: 55em;
+    position: relative;
+    top: 650px;
+    left: 725px;
     cursor: pointer;
 }
 #r1,#r2{
@@ -69,9 +81,9 @@ body{
 .i2{
     width: 260px;
     height: 260px;
-    position: absolute;
+    position: relative;
     left: 875px;
-    top: 620px;
+    top: 550px;
 }
 .control{
     
@@ -84,107 +96,107 @@ body{
 @keyframes left0
 {
     0%{
-        top: 45em;
-        left: 54em;
+        top: 650px;
+        left: 725px;
     }
     100%{
-        top: 19em;
-        left: 32em;
+        top: 300px;
+        left: 325px;
     }
 }
 @keyframes left1
 {
     0%{
-        top: 45em;
-        left: 54em;
+        top: 650px;
+        left: 725px;
     }
     100%{
-        top: 32em;
-        left: 32em;
+        top: 500px;
+        left: 325px;
     }
 }
 @keyframes left2
 {
     0%{
-        top: 45em;
-        left: 54em;
+        top: 650px;
+        left: 725px;
     }
     100%{
-        top: 26em;
-        left: 32em;
+        top: 400px;
+        left: 325px;
     }
 }
 @keyframes Right0
 {
     0%{
-        top: 45em;
-        left: 54em;
+        top: 650px;
+        left: 725px;
     }
     100%{
-        top: 50em;
-        left: 75em;
+        top: 300px;
+        left: 1100px;
     }
 }
 @keyframes Right1
 {
     0%{
-        top: 45em;
-        left: 54em;
+        top: 650px;
+        left: 725px;
     }
     100%{
-        top: 32em;
-        left: 75em;
+        top: 500px;
+        left: 1100px;
     }
 }
 @keyframes Right2
 {
     0%{
-        top: 45em;
-        left: 54em;
+        top: 650px;
+        left: 725px;
     }
     100%{
-        top: 26em;
-        left: 75em;
+        top: 400px;
+        left: 1100px;
     }
 }
 @keyframes center0
 {
     0%{
-        top: 45em;
-        left: 54em;
+        top: 650px;
+        left: 725px;
     }
     100%{
-        top: 18em;
-        left: 53em;
+        top: 300px;
+        left: 725px;
     }
 }
 @keyframes center1
 {
     0%{
-        top: 45em;
-        left: 54em;
+        top: 650px;
+        left: 725px;
     }
     100%{
-        top: 30em;
-        left: 53em;
+        top: 500px;
+        left: 725px;
     }
 }
 @keyframes center2
 {
     0%{
-        top: 45em;
-        left: 54em;
+        top: 650px;
+        left: 725px;
     }
     100%{
-        top: 25em;
-        left: 53em;
+        top: 400px;
+        left: 725px;
     }
 }
 @keyframes outside1
 {
     0%{
-        top: 45em;
-        left: 54em;
+        top: 650px;
+        left: 725px;
     }
     100%{
         top: 3.5em;
@@ -194,8 +206,8 @@ body{
 @keyframes outside2
 {
     0%{
-        top: 45em;
-        left: 54em;
+        top: 650px;
+        left: 725px;
     }
     100%{
         top: 3.5em;
@@ -205,8 +217,8 @@ body{
 @keyframes outside3
 {
     0%{
-        top: 45em;
-        left: 54em;
+        top: 650px;
+        left: 725px;
     }
     100%{
         top: 3.5em;
@@ -216,8 +228,8 @@ body{
 @keyframes outside4
 {
     0%{
-        top: 45em;
-        left: 54em;
+        top: 650px;
+        left: 725px;
     }
     100%{
         top: 32em;
@@ -227,8 +239,8 @@ body{
 @keyframes outside5
 {
     0%{
-        top: 45em;
-        left: 54em;
+        top: 650px;
+        left: 725px;
     }
     100%{
         top: 32em;
@@ -238,47 +250,47 @@ body{
 @keyframes gl0
 {
     0%{
-        top: 16em;
-        left: 40em;
+        top: 650px;
+        left: 725px;
     }
     100%{
-        top: 11em;
-        left: 25em;
+        top: 400px;
+        left: 425px;
         transform: rotate(-40deg);
     }
 }
 @keyframes gl1
 {
     0%{
-        top: 16em;
-        left: 40em;
+        top: 650px;
+        left: 725px;
     }
     100%{
-        top: 15em;
-        left: 25em;
+        top: 600px;
+        left: 425px;
         transform: rotate(-20deg);
     }
 }
 @keyframes gl2
 {
     0%{
-        top: 16em;
-        left: 40em;
+        top: 650px;
+        left: 725px;
     }
     100%{
-        top: 17em;
-        left: 25em;
+        top: 500px;
+        left: 425px;
     }
 }
 @keyframes gc0
 {
     0%{
-        top: 16em;
-        left: 40em;
+        top: 650px;
+        left: 725px;
     }
     100%{
-        top: 11em;
-        left: 25em;
+        top: 400px;
+        left: 725px;
         transform: rotate(-40deg);
     }
 }
@@ -294,46 +306,46 @@ body{
 @keyframes gc2
 {
     0%{
-        top: 16em;
-        left: 40em;
+        top: 650px;
+        left: 725px;
     }
     100%{
-        top: 17em;
-        left: 25em;
+        top: 500px;
+        left: 725px;
     }
 }
 @keyframes gr0
 {
     0%{
-        top: 16em;
-        left: 40em;
+        top: 650px;
+        left: 725px;
     }
     100%{
-        top: 11em;
-        left: 55em;
+        top: 400px;
+        left: 1200px;
         transform: rotate(40deg);
     }
 }
 @keyframes gr1
 {
     0%{
-        top: 16em;
-        left: 40em;
+        top: 650px;
+        left: 725px;
     }
     100%{
-        top: 15em;
-        left: 55em;
+        top: 600px;
+        left: 1200px;
         transform: rotate(20deg);
     }
 }
 @keyframes gr2
 {
     0%{
-        top: 16em;
-        left: 40em;
+        top: 650px;
+        left: 725px;
     }
     100%{
-        top: 17em;
-        left: 55em;
+        top: 500px;
+        left: 1200px;
     }
 }
