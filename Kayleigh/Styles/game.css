@@ -297,10 +297,12 @@ body{
 @keyframes gc1
 {
     0%{
-        top: 16em;
+        left: 875px;
+        top: 550px;
     }
     100%{
-        top: 16em;
+        left: 875px;
+        top: 550px;
     }
 }
 @keyframes gc2
