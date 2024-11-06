@@ -11,14 +11,15 @@ h1{
 p {
     text-shadow: 2px 2px 2px black;
     color: whitesmoke;
-    font-size: 20px;
+    font-size: 25px;
 }
 a{
     text-shadow: 2px 2px 2px black;
-    font-size: 20px;
+    font-size: 25px;
     color: rgb(255, 255, 255);
 }
 #aliens{
+    height: 1000px;
     float: right;
     text-align: left;
 }
