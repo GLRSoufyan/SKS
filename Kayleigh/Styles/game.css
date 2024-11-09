@@ -15,6 +15,9 @@ a{
     color: white;
     font-size: 25px;
 }
+a:hover {
+    color: gold;
+  }
 .boo{
     text-align: center;
 }
